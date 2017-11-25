@@ -2,3 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+pmaster*.pdf
+*synctex.gz
+*.log
+*.toc
+pmaster-concordance.tex
+pmaster.tex
