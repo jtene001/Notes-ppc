@@ -1,0 +1,3 @@
+% !Rnw root = pmaster.Rnw
+
+\section{Radiative transfer in temperature stratified atmospheres}

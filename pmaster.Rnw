@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+
+
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{fancyvrb}
+\usepackage{indentfirst}
+\usepackage{mathtools}
+\usepackage{csquotes}
+\usepackage{bm}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{breakurl}
+\usepackage{sectsty}
+\allsectionsfont{\singlespacing}
+\usepackage{enumerate}
+\usepackage{verbatim}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\captionsetup[figure]{name=Fig.}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\title{Notes from Raymond T. Pierrehumbert, Principles of Planetary Climate}
+\author{JST}
+
+\maketitle
+
+%Table of Contents
+\tableofcontents
+\newpage
+
+%Chapter 1
+\SweaveInput{pch1.Rnw}
+\newpage
+
+%Chapter 2
+\SweaveInput{pch2.Rnw}
+\newpage
+
+%Chapter 3
+\SweaveInput{pch3.Rnw}
+\newpage
+
+%Chapter 4
+\SweaveInput{pch4.Rnw}
+\newpage
+
+\end{document}

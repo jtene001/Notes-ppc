@@ -1,0 +1,4 @@
+% !Rnw root = pmaster.Rnw
+
+%Chapter 3
+\section{Elementary models of radiation balance}
