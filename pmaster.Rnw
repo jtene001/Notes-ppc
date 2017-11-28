@@ -1,7 +1,7 @@
 \documentclass[12pt]{article}
 
 
-\usepackage{geometry}
+\usepackage[margin=.5in]{geometry}
 \usepackage{amsmath}
 \usepackage{caption}
 \usepackage{graphicx}
@@ -35,19 +35,19 @@
 \tableofcontents
 \newpage
 
-%Chapter 1
+%Chapter 1 - The Big Questions
 \SweaveInput{pch1.Rnw}
 \newpage
 
-%Chapter 2
+%Chapter 2 - Thermodynamics in a Nutshell
 \SweaveInput{pch2.Rnw}
 \newpage
 
-%Chapter 3
+%Chapter 3 - Elementary models of radiation balance
 \SweaveInput{pch3.Rnw}
 \newpage
 
-%Chapter 4
+%Chapter 4 - Radiative transfer in temperature stratified atmospheres
 \SweaveInput{pch4.Rnw}
 \newpage
 

@@ -3,3 +3,60 @@
 
 %Chapter 2
 \section{Thermodynamics in a Nutshell}
+
+\subsection{Overview}
+
+\subsection{A few observations}
+
+Lower pressures represent higher altitudes. Units of pressure are millibars. One bar is approximately the mean sea-level pressure.\\
+
+Actual heights are not usually considered, only pressure. Pressure or its log will be used as the fundamental vertical component. Note on the right below that altitude is very nearly linearly related to the log of pressure.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=120mm]{tempprofile.png}
+\end{figure}
+
+Note from the vertical temperature profile above left that temperature decreases with altitude/pressure in the \textbf{Troposphere} until the \textbf{Tropopause} and then increases with altitude/pressure in the \textbf{Stratosphere.} Below are vertical temperature profiles for Jupiter, Venus, Mars and Titan, which show similar profiles of temperature decrease with altitude.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=120mm]{planetprofile.png}
+\end{figure}
+
+Thermodynamics can reveal the reasons for the decrease of temperature with altitude. Note that energy budget of a planet is crucially affected by vertical temperature structure, so a thorough understanding of temperature structure is central to any theory of planetary climate.
+
+\subsection{Dry Thermodynamics of an Ideal Gas}
+
+\subsubsection{Equation of state for an ideal gas}
+
+Concerned with 3 thermodynamic variables:
+
+\begin{enumerate}
+\item \textbf{Temperature}, denoted by $T$ and measured in Kelvins. A system is in thermodynamic equilibrium when it can be characterized by a single temperature.
+\item \textbf{Pressure}, denoted by $p$. Force per unit area on a surface in contact with the gas.
+\item \textbf{Density}, denoted by $\rho$. Mass of the gas per unit volume.
+\end{enumerate}
+
+\textbf{Perfect gas equation of state}:
+%
+\[p=knT \tag{2.1}\]
+%
+where n is the number of molecules per unit volume (proportional to density), and $k$ is the \textbf{Boltzman thermodynamic constant}, which has dimensions of energy per unit temperature.
+We can write density as $\rho=n \cdot M \cdot \mu$, where M is the molecular weight and $\mu$ is the mass of a proton. Then we define the Universal Gas Constant as $R* \equiv \frac{k}{\mu}$ and we can rewrite the perfect gas equation of state as:
+%
+\[p=\frac{R*}{M}\rho T \tag{2.2}\]
+
+Generally, a gas obeys the perfect gas law when it is tenuous enough that the energy stored in forces between the molecules is negligible. It generally works well for the atmosphere of Earth or Mars, or the upper atmospheres of Jupiter or Venus, but not necessarily for a dense atmosphere like the lower atmosphere of Venus.\\
+
+\textbf{Law of Partial Pressures:} In a mixture of gases in a given volume, each component behaves as if it occupied the volume alone. The pressure due to each component is called the \textbf{partial pressure} due to that component.
+
+
+
+
+
+
+
+
+
